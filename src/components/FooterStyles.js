@@ -5,7 +5,7 @@ padding: 80px 60px;
 background:;
 position: absolute;
 bottom: ;
-top: 1100px;
+top: 1050px;
 width: 100%;
 
 
@@ -23,7 +23,7 @@ export const Container = styled.div`
 `
 
 export const Column = styled.div`
-
+  
 `;
 
 export const Row = styled.div`

@@ -19,38 +19,35 @@ import WidgetsIcon from '@mui/icons-material/Widgets';
 
       
 
-            <div className='absolute'>
-             <img src={Elipse} alt='background' />
+            <div className='absolute place-content-center'>
+             <img src={Elipse} alt='background'/>
+             </div>
+
+             <div className=' hidden md:block bg-transparent absolute pt-96 z-10'><Metaball /></div>
+      
+             <div className=' absolute z-10 text-white lg:grid lg:grid-cols-2 px-36 gap-10 lg:pt-96 pt-48'>
+             
+              <div className='grid grid-cols-1 gap-10 md:px-20 lg:text-left z-10 text-center '>
+             <h1 className='text-3xl md:text-6xl '>Join Others like you in this Journey</h1>
+             <button className="scale-90 hover:scale-100 ease-in duration-100 bg-cyan-400 shadow-lg shadow-cyan-500/50 hover:bg-cyan-100  text-black py-4 rounded-md w-28 md:w-36 md:ml-40 ml-10 lg:ml-0 lg:w-40">SIGN UP{">"}</button>
              </div>
       
-             <div className=' absolute z-10 text-gray-300 grid grid-cols-2 px-36 gap-8 pt-96'>
-             <div className=' bg-transparent absolute pt-96 z-0'><Metaball /></div>
-             <div className='grid grid-cols-1 gap-10 px-20 text-left z-10'>
-             <h1 className=' text-6xl'>Join Others like you in this Journey</h1>
-             <button className="scale-90 hover:scale-100 ease-in duration-100 bg-cyan-400 shadow-lg shadow-cyan-500/50 hover:bg-cyan-100  text-black py-4 rounded-md w-40">SIGN UP{">"}</button>
-             </div>
-      
-             <div className=' absolute py-10 px-10 text-gray-500  text-xl text-center left-[50rem] top-[23rem]'>
-             <div className='grid grid-cols-3'>
-             <div className=' scale-100 hover:scale-110 ease-in duration-100'><PersonalVideoIcon /> Development</div>
+           
+             <div className=' grid grid-cols-2 lg:grid-cols-3 row-span-3 gap-20 absolute lg:py-10 py-44 px-16  text-white  text-xl text-center lg:left-[50rem] top-[23rem] left-[1rem] md:left-[10rem]'>
+             <h1 className=' scale-100 hover:scale-110 ease-in duration-100'><PersonalVideoIcon /> Development</h1>
               <div className=' scale-100 hover:scale-110 ease-in duration-100'><BrushIcon /> Design</div>
               <div className=' scale-100 hover:scale-110 ease-in duration-100'><CampaignIcon /> Marketing</div>
-              </div>
-              
-              <div className='grid grid-cols-2  py-16'>
               <div  className=' scale-100 hover:scale-110 ease-in duration-100'><VideogameAssetIcon/> Games </div>
-              <div  className=' scale-100 hover:scale-110 ease-in duration-100'><PhotoCameraIcon /> Pictures</div></div>
-              
-              <div className='grid grid-cols-3'>
-              <div  className=' scale-100 hover:scale-110 ease-in duration-100'><RocketLaunchIcon /> Startups</div>
+              <div  className=' scale-100 hover:scale-110 ease-in duration-100'><PhotoCameraIcon /> Pictures</div> <div  className=' scale-100 hover:scale-110 ease-in duration-100'><RocketLaunchIcon /> Startups</div>
               <div  className=' scale-100 hover:scale-110 ease-in duration-100'><WidgetsIcon /> Web3</div>
               <div  className=' scale-100 hover:scale-110 ease-in duration-100'><CurrencyBitcoinIcon /> Blockchain</div>
               </div>
-      
              </div>
               
+             <div className='lg:hidden block absolute place-content-center pt-[530px]'>
+             <img src={Elipse} alt='background'/>
              </div>
-             
+
             
              
             </div>

@@ -17,22 +17,22 @@ export default Footer  =>  (
 
 	<Container>
 		<Row>
-        <div className=" gap-96 grid grid-cols-2">
-        <Column className="text-left">
+        <div className=" gap-60 lg:gap-96 grid grid-cols-2">
+        <Column className="md:text-left">
 			<Heading><span class='text-3xl text-cyan-900 font-extrabold mr-1 pt-2'>
         <ion-icon name="cube-outline"></ion-icon>
         </span>BlockExplorer</Heading>
-			<p className="text-gray-300 ">Best Platform for gaining knowledge about defi and Blockchain</p>
-            <div className="grid grid-cols-3 gap-10 pt-14 text-gray-300">
-                <p>PRIVACY POLICY</p>
-                <p>TERMS</p>
-                <p>SUPPORT</p>
+			<p className="text-gray-300 lg:text-center">Best Platform for gaining knowledge about defi and Blockchain</p>
+            <div className="grid md:grid-cols-3 gap:5 md:gap-16 pt-14 text-gray-300">
+                <a href="">PRIVACY POLICY</a>
+                <a href="">TERMS</a>
+                <a href="">SUPPORT</a>
             </div>
 		</Column>
-		<Column className="text-right">
+		<Column className="md:text-right">
 			<Heading>Follow us on </Heading>
             <p className="text-gray-300 ">2022 All Rights Reserved</p>
-            <div className="grid grid-cols-4 gap-10 pt-14">
+            <div className="grid  grid-cols-1 md:grid-cols-4 lg:gap-10 pt-14">
             <FooterLink href="#"><TwitterIcon /></FooterLink>
 			<FooterLink href="#"><InstagramIcon /></FooterLink>
 			<FooterLink href="#"><LinkedInIcon /></FooterLink>
